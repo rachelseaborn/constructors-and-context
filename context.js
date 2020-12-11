@@ -18,7 +18,13 @@
 */
 
 //Code Here
-
+const user = {
+  username: 'Max',
+  email: 'some email',
+  getUsername: function() {
+    return (this.username)
+}
+};
 ////////// PROBLEM 2 //////////
 
 /*
@@ -38,7 +44,7 @@ function Animal(name, species, food) {
 }
 
 //Code Here
-
+const animal1 = new Animal('cheetah', 'feline', 'rabbit')
 ////////// PROBLEM 3 //////////
 
 /*
@@ -56,7 +62,7 @@ let who = {
 }
 
 //Code Here
-
+const whoSaysHi = sayHi.bind(who);
 ////////// PROBLEM 4 //////////
 
 /*
